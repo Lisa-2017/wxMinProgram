@@ -1,0 +1,35 @@
+<!--pages/list/list.wxml-->
+<!-- 引入template -->
+<import src="../template/template" />
+
+<view class="listContainer">
+  <view>
+    <swiper autoplay interval="2000" indicator-dots indicator-color="#fff" indicator-active-color="pink">
+      <swiper-item>
+        <image src="/images/detail/carousel/01.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/02.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/03.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/04.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/05.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/detail/carousel/06.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <block wx:for="{{datas}}">
+    <view>
+      <!-- 使用模板（指定模板的名称），将datas中的数据对象,解构到模板上 -->
+      <template is="msgItem" data="{{...item}}" />
+    </view>
+
+  </block>
+</view>

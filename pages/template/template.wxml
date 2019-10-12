@@ -1,0 +1,16 @@
+<template name="msgItem">
+  <view class="tmpContainer"> 
+    <view class="tmp-avatar">
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <image class="company-img" src="{{detail_img}}"></image>
+    <text class="company-title">{{detail_content}}</text>
+    <view class="favorite-img-text">
+      <image src="/images/icon/chat.png"></image>
+      <text>88</text>
+      <image src="/images/icon/view.png"></image>
+      <text>66</text>
+    </view>
+  </view>
+</template>

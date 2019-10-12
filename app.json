@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Lisa的小程序",
+    "backgroundColor": "#E1FFFF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json"
+}

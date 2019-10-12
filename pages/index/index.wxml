@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="container">  
+  <view>
+  <image src="/images/avatar/wyb.jpg" class="avatar"></image>
+  </view>
+  <!-- <view class="userName">
+    <text>    王一博 && 肖战 </text> 
+  </view> -->
+  <view class="userName">
+  <text>    蓝忘机 & 魏无羡  </text>
+  </view>
+  <view class="btnEnter" bindtap="goToList">
+    <text>btnEnter</text>
+  </view>
+</view>
